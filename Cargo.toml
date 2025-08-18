@@ -2,6 +2,13 @@
 name = "snake_to_camel"
 version = "0.1.0"
 edition = "2024"
+authors = ["JiajieZeee<735139914@qq.com>"]
+license = "MIT"
+description = "A proc-macro crate to convert snake_case to camelCase"
+repository = "https://github.com/JiajieZeee/snake_to_camel"
+readme = "readme.md"
+keywords = ["snake", "camel", "proc-macro"]
+categories = ["development-tools::procedural-macros"]
 
 [lib]
 proc-macro = true
