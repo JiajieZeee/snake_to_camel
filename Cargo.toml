@@ -5,6 +5,7 @@ edition = "2024"
 authors = ["JiajieZeee<735139914@qq.com>"]
 license = "MIT"
 description = "A Rust library that generates camelCase fields structs from struct with snake_case fields"
+homepage = "https://github.com/JiajieZeee/snake_to_camel"
 repository = "https://github.com/JiajieZeee/snake_to_camel"
 readme = "readme.md"
 keywords = ["snake", "camel", "proc-macro"]
