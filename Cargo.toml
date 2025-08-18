@@ -9,7 +9,6 @@ homepage = "https://github.com/JiajieZeee/snake_to_camel"
 repository = "https://github.com/JiajieZeee/snake_to_camel"
 readme = "readme.md"
 keywords = ["snake", "camel", "proc-macro"]
-categories = ["development-tools::procedural-macros"]
 
 [lib]
 proc-macro = true
