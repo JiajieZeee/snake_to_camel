@@ -108,9 +108,9 @@ struct CustomFieldExample {
 ```rust
 #[derive(GenCamelCase)]
 #[gen_camel(name = "WithExtraFieldsDto")]
-#[add_field(field_name = "isActive", field_type = "bool")]
-#[add_field(field_name = "timestamp", field_type = "u64")]
 struct BaseStruct {
+    #[add_field(field_name = "isActive", field_type = "bool")]
+    #[add_field(field_name = "timestamp", field_type = "u64")]
     field_one: String,
     field_two: i32,
 }
