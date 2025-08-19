@@ -1,5 +1,5 @@
 # snake_to_camel
-for English, see **[readmeEn](readmeEn.md)**
+for English, see **[readmeEn.md](readmeEn.md)**
 
 一个用于将蛇形命名(snake_case)结构体转换为驼峰命名(camelCase)结构体的Rust库，提供自动派生宏和类型转换功能。
 
