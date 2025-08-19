@@ -82,14 +82,14 @@ struct AdvancedUser<T> {
 
 ```rust
 #[derive(GenCamelCase)]
-#[gen_camel(name = "AdvancedUserDto", id = "vo")]
+#[gen_camel(name = "AdvancedUserVo", id = "vo")]
 #[gen_camel(suffix = "Dto", id = "dto")]
 #[gen_camel(prefix = "Add", id = "dto2")]
 struct AdvancedUser<T> {
     user_id: u64,
     user_data: T,
 }
-//这将会生成三个结构体: AdvancedUserVo, AdvancedUserDto, AdvancedUserDto2
+//这将会生成三个结构体: AdvancedUserVo, AdvancedUserDto, AdvancedUserAdd
 ```
 
 ### 字段级别配置
@@ -127,7 +127,7 @@ struct BaseStruct {
 use snake_to_camel::GenStruct;
 
 #[derive(GenCamelCase)]
-#[gen_camel(new_name = "OrderDto")]
+#[gen_camel(name = "OrderDto")]
 struct Order {
     order_id: u64,
     customer_name: String,

@@ -82,14 +82,14 @@ struct AdvancedUser<T> {
 
 ```rust
 #[derive(GenCamelCase)]
-#[gen_camel(name = "AdvancedUserDto", id = "vo")]
+#[gen_camel(name = "AdvancedUserVo", id = "vo")]
 #[gen_camel(suffix = "Dto", id = "dto")]
 #[gen_camel(prefix = "Add", id = "dto2")]
 struct AdvancedUser<T> {
     user_id: u64,
     user_data: T,
 }
-// This will generate three structs: AdvancedUserVo, AdvancedUserDto, AdvancedUserDto2
+// This will generate three structs: AdvancedUserVo, AdvancedUserDto, AdvancedUserAdd
 ```
 
 ### Field-level Configuration
@@ -127,7 +127,7 @@ struct BaseStruct {
 use snake_to_camel::GenStruct;
 
 #[derive(GenCamelCase)]
-#[gen_camel(new_name = "OrderDto")]
+#[gen_camel(name = "OrderDto")]
 struct Order {
     order_id: u64,
     customer_name: String,
@@ -163,4 +163,4 @@ fn main() {
 ```
 
 ## License
-**[MIT License](license)**
+**[MIT License](/license)**
