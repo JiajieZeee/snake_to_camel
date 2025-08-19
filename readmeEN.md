@@ -1,5 +1,5 @@
 # snake_to_camel
-中文说明请看 **[readme.md](readme.md)**
+中文说明请看 **[readme.md](./readme.md)**
 
 A Rust library for converting snake_case structs to camelCase structs, providing automatic derive macros and type conversion functionality.
 
