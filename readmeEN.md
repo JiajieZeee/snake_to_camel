@@ -89,7 +89,7 @@ struct AdvancedUser<T> {
     user_id: u64,
     user_data: T,
 }
-// This will generate three structs: AdvancedUserVo, AdvancedUserDto, AdvancedUserAdd
+// This will generate three structs: AdvancedUserVo, AdvancedUserDto, AddAdvancedUser
 ```
 
 ### Field-level Configuration

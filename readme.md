@@ -89,7 +89,7 @@ struct AdvancedUser<T> {
     user_id: u64,
     user_data: T,
 }
-//这将会生成三个结构体: AdvancedUserVo, AdvancedUserDto, AdvancedUserAdd
+//这将会生成三个结构体: AdvancedUserVo, AdvancedUserDto, AddAdvancedUser
 ```
 
 ### 字段级别配置
